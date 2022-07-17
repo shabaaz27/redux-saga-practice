@@ -17,10 +17,11 @@ useEffect(()=>{
 
   return (
     <>
-        <section><button onClick={()=>dispatch(addToCart(car))}>Add to Cart</button></section>
+        {/* <section><button onClick={()=>dispatch(addToCart(car))}>Add to Cart</button></section>
         <section><button onClick={()=>dispatch(removeFromCart(cartDetails[0]?.id))}>Remove from Cart</button></section>
+        
+        <section><button onClick={()=>dispatch(productList())}>get Product</button></section> */}
         <section><button onClick={()=>dispatch(emptyCart())}>Delete Cart</button></section>
-        <section><button onClick={()=>dispatch(productList())}>get Product</button></section>
         <section className='product-container'>
           {
             data && data.map((item)=><div key={item.id} className='product-item' style={{textAlign:"center",margin:"10px"}}>

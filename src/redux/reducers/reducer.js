@@ -12,8 +12,8 @@ export const cartData = (state = [], action) => {
     case ADD_TO_CART:
       return [action.data, ...state];
     case REMOVE_FROM_CART:
-      const cartItems = state;
-      return cartItems.filter((item) => item.id != action.id);
+      const cartItems = state.filter((item) => item.id != action.id);
+      return [...cartItems];
     case EMPTY_CART:
        state = [];
       return [...state]
