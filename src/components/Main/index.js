@@ -6,7 +6,7 @@ function Main() {
   const dispatch = useDispatch()
   const data = useSelector(state=>state.productListReducer)
   const cartDetails = useSelector(state=>state.cartData)
-  console.log(data)
+  console.log("data===>",data)
 
   const id = Math.random() * 2 + 1
   const car = {type:"Fiat", model:"500", color:"white",id}
