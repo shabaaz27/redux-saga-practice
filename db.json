@@ -1,0 +1,40 @@
+{
+    "product":[
+        {
+            "id":1,
+            "name":"Poco X3",
+            "color":"black",
+            "price":15000,
+            "category":"mobile",
+            "brand":"Samsung",
+            "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Poco_X3_Pro.jpg/640px-Poco_X3_Pro.jpg"
+        },
+        {
+            "id":2,
+            "name":"Tshirt",
+            "color":"black",
+            "price":15000,
+            "category":"mobile",
+            "brand":"Samsung",
+            "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Poco_X3_Pro.jpg/640px-Poco_X3_Pro.jpg"
+        },
+        {
+            "id":3,
+            "name":"MI",
+            "color":"black",
+            "price":15000,
+            "category":"mobile",
+            "brand":"Samsung",
+            "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Poco_X3_Pro.jpg/640px-Poco_X3_Pro.jpg"
+        },
+        {
+            "id":4,
+            "name":"Sports Car",
+            "color":"black",
+            "price":15000,
+            "category":"mobile",
+            "brand":"Samsung",
+            "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Poco_X3_Pro.jpg/640px-Poco_X3_Pro.jpg"
+        }
+    ]
+}
