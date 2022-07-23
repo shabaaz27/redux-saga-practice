@@ -9,10 +9,52 @@
   margin:25px;
   position: relative;
 }
+.cart{
+  justify-content: center;
+}
+.cart-container{
+  display:flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: center;
+}
 
+.cart-container table{
+  flex:65%;
+  border-collapse: collapse;
+}
+.cart-container table td{
+  border: 1px solid #ccc;
+  padding:20px;
+}
 .cart-div img{
   width: 2.5rem;
 }
+
+.price-details{
+  flex:25%;
+  margin:0px 10px;
+  margin-block-start: auto;
+  justify-content: center;
+}
+.header input{
+  margin: 22px;
+  align-self: center;
+  width: 30%;
+  height: 20px;
+  margin-left: 20%;
+  text-align: -webkit-auto;
+  padding: 8px;
+}
+
+.price-details .adjust-amount{
+  display: flex;
+  justify-content:space-between;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+
+}
+
 .cart-div > span {
   border-radius: 20px;
     position: absolute;
