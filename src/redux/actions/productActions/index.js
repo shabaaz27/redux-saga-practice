@@ -1,4 +1,4 @@
-import { PRODUCT_LIST, SET_PRODUCT_LIST } from "../../constants"
+import { PRODUCT_LIST, SEARCH_PRODUCT, SET_PRODUCT_LIST } from "../../constants"
 
 
 export const productList = ()=>{
@@ -10,4 +10,13 @@ export const productList = ()=>{
         type:PRODUCT_LIST,
     }
 }
+
+export const productSearch = (query)=>{
+    return{
+        type: SEARCH_PRODUCT,
+        query
+    }
+
+}
+
 
